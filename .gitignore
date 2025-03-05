@@ -20,6 +20,7 @@ Complete/
 *.mp3  # Ignore audio files
 *.flac
 *.ogg
+.DS_Store
 
 # System/OS files
 .DS_Store  # macOS junk files
