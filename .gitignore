@@ -1,0 +1,36 @@
+# created by virtualenv automatically
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Project-specific ignores
+Processing/
+Complete/
+*.wav  # Ignore temporary WAV files (like temp.wav in your script)
+*.mp3  # Ignore audio files
+*.flac
+*.ogg
+
+# System/OS files
+.DS_Store  # macOS junk files
+Thumbs.db  # Windows junk files
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+
+# Logs and caches
+*.log
+*.cache
+pip-wheel-metadata/
